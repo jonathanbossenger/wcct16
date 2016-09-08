@@ -18,7 +18,7 @@ function wcct_save_option( $name, $value ){
 }
 
 function wcct_get_option( $name ){
-	$option = get_option( 'wcct_' . $name );
+	//$option = get_option( 'wcct_' . $name );
 	return get_option( 'wcct_' . $name );
 }
 
